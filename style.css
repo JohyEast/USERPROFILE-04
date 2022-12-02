@@ -1,0 +1,19 @@
+* {
+ font-family: IBM Plex Sans;
+}
+
+.div-padre {
+ display: flex;
+ justify-content: center;
+}
+
+.principal {
+ width: 486px;
+ height: 458px;
+ margin: auto;
+ border: thin solid black;
+}
+
+.imagen {
+ margin-top: 66px;
+}
