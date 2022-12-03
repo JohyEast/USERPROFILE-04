@@ -2,6 +2,9 @@
  font-family: IBM Plex Sans;
 }
 
+body {
+ background-color: #ffedd2;
+}
 .div-padre {
  display: flex;
  justify-content: center;
@@ -10,20 +13,26 @@
 .principal {
  width: 486px;
  height: 458px;
- margin: auto;
+ border-radius: 25px;
+ background-color: #ffffff;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 66px 51px 50px;
  border: thin solid black;
 }
 
-.imagen {
- margin-top: 66px;
- margin: auto;
- margin-top: 66px;
- display: block;
+.div-imagen {
+ height: 119px;
+ width: 119px;
+ background: url("./IMG/smile-gbf333bb7e_640.jpg") no-repeat center;
+ background-size: cover;
+ border-radius: 25px;
 }
 
 h1 {
  text-align: center;
- padding-top: 40px;
  margin: 0%;
+ margin-top: 40px;
  font-size: 22px;
 }
